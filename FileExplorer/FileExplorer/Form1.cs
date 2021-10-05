@@ -17,5 +17,9 @@ namespace FileExplorer
             InitializeComponent();
         }
 
+        private void FileExplorer_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

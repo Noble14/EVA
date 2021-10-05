@@ -100,8 +100,9 @@ namespace FileExplorer
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(584, 361);
             this.Controls.Add(this.splitContainer1);
-            //this.Name = "FileExplorer";
+            this.Name = "FileExplorer";
             this.Text = "File Explorer";
+            this.Load += new System.EventHandler(this.FileExplorer_Load);
             this.splitContainer1.Panel1.ResumeLayout(false);
             this.splitContainer1.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
