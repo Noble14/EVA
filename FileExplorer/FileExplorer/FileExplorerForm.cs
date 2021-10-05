@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace FileExplorer
 {
-    public partial class FileExplorer : Form
+    public partial class FileExplorerForm : Form
     {
-        public FileExplorer()
+        public FileExplorerForm()
         {
             InitializeComponent();
         }
